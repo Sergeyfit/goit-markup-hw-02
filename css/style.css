@@ -1,0 +1,16 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
+  background-color: var(--white-background-color);
+  color: var(--primary-text-color);
+}
+
+/* убираем точки списков */
+.list {
+  list-style: none;
+}
+
+/* убираем подчеркивание ссылок */
+.link {
+  text-decoration: none;
+}
