@@ -1,16 +1,121 @@
+:root {
+  --white-background-col: #e5e5e5;
+  --primary-txt-col: #212121;
+  --secondary-txt-col: #757575;
+  --brand-txt-col: #2196f3;
+  --footer-txt-col: #ffffff;
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
-  background-color: var(--white-background-color);
-  color: var(--primary-text-color);
+  background-color: var(--white-background-col);
+  color: var(--primary-txt-col);
 }
 
 /* убираем точки списков */
 .list {
   list-style: none;
+  cursor: pointer;
 }
 
 /* убираем подчеркивание ссылок */
 .link {
   text-decoration: none;
+  color: currentColor;
+}
+
+/* header & footer style */
+.header {
+  background-color: #ffffff;
+}
+.header-logo,
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--brand-txt-col);
+}
+
+.logo-word {
+  color: #000000;
+}
+
+.contact-link,
+.address-contact {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--secondary-txt-col);
+}
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--primary-txt-col);
+}
+.header-link:hover,
+.header-link:focus,
+.mail:hover,
+.mail:focus {
+  color: var(--brand-txt-col);
+}
+.link.current {
+  color: var(--brand-txt-col);
+}
+
+.section-hero,
+.footer {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: var(--footer-txt-col);
+  font-weight: 900;
+  font-size: 44px;
+  text-transform: uppercase;
+}
+
+.hero-btn {
+  background-color: var(--brand-txt-col);
+  color: var(--footer-txt-col);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.skils-subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.skils-text {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--secondary-txt-col);
+}
+
+.gallery-title,
+.teams-title {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.teams-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.teams-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--secondary-txt-col);
+}
+
+.address-contact-link {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--white-background-col);
 }
