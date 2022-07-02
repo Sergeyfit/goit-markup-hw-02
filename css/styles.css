@@ -21,7 +21,8 @@ body {
 }
 
 /* додаємо курсор */
-.prt-filter-list {
+.prt-btn,
+.hero-btn {
   cursor: pointer;
 }
 
