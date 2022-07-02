@@ -40,10 +40,12 @@ body {
 .footer-logo {
   font-family: Raleway;
   font-size: 26px;
+  line-height: 1.2;
   color: var(--brand-txt-col);
 }
 
 .logo-word {
+  line-height: 1.7;
   color: #000000;
 }
 
@@ -56,6 +58,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   font-style: normal;
+  line-height: 1.42;
   color: var(--secondary-txt-col);
 }
 
@@ -89,6 +92,7 @@ body {
   color: var(--footer-txt-col);
   font-weight: 900;
   font-size: 44px;
+  line-height: 1.36;
   text-transform: uppercase;
 }
 
@@ -99,7 +103,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   font-family: inherit;
-  line-height: 1.63;
+  line-height: 1.87;
 }
 
 .hero-btn:hover,
@@ -110,11 +114,13 @@ body {
 .skils-subtitle {
   font-weight: 700;
   font-size: 14px;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 
 .skils-text {
   font-size: 14px;
+  line-height: 1.71;
   color: var(--secondary-txt-col);
 }
 
@@ -122,15 +128,18 @@ body {
 .teams-title {
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.16;
 }
 
 .teams-subtitle {
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.9;
 }
 
 .teams-text {
   font-size: 16px;
+  line-height: 1.9;
   color: var(--secondary-txt-col);
 }
 /*  */
