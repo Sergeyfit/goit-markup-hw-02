@@ -62,8 +62,12 @@ body {
 }
 .header-link:hover,
 .header-link:focus,
-.mail:hover,
-.mail:focus {
+.contact-link:hover,
+.contact-link:focus,
+.address-contact:hover,
+.address-contact:focus,
+.address-contact-map:hover,
+.address-contact-map:focus {
   color: var(--brand-txt-col);
 }
 
@@ -127,7 +131,7 @@ body {
   color: var(--secondary-txt-col);
 }
 
-.address-contact-link {
+.address-contact-map {
   font-weight: 400;
   font-size: 14px;
   font-style: normal;
