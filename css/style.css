@@ -34,7 +34,6 @@ body {
 .header-logo,
 .footer-logo {
   font-family: Raleway;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   color: var(--brand-txt-col);
@@ -44,10 +43,15 @@ body {
   color: #000000;
 }
 
+.logo-word-footer {
+  color: var(--footer-txt-col);
+}
+
 .contact-link,
 .address-contact {
   font-weight: 500;
   font-size: 14px;
+  font-style: normal;
   color: var(--secondary-txt-col);
 }
 
@@ -62,6 +66,7 @@ body {
 .mail:focus {
   color: var(--brand-txt-col);
 }
+
 .link.current {
   color: var(--brand-txt-col);
 }
@@ -81,8 +86,16 @@ body {
 .hero-btn {
   background-color: var(--brand-txt-col);
   color: var(--footer-txt-col);
+  border: 1px;
   font-weight: 700;
   font-size: 16px;
+  font-family: inherit;
+  line-height: 1.63;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
 }
 
 .skils-subtitle {
@@ -117,5 +130,22 @@ body {
 .address-contact-link {
   font-weight: 400;
   font-size: 14px;
+  font-style: normal;
+  color: var(--white-background-col);
+}
+
+.prt-btn {
+  background-color: #f5f4fa;
+  color: #212121;
+  border: 1px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+.prt-btn:hover,
+.prt-btn:focus {
+  background-color: var(--brand-txt-col);
   color: var(--white-background-col);
 }
