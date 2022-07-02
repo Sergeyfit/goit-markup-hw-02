@@ -99,7 +99,7 @@ body {
 .hero-btn {
   background-color: var(--brand-txt-col);
   color: var(--footer-txt-col);
-  border: 1px;
+  border: transparent; /* border: 1px; */
   font-weight: 700;
   font-size: 16px;
   font-family: inherit;
@@ -153,7 +153,7 @@ body {
 .prt-btn {
   background-color: #f5f4fa;
   color: #212121;
-  border: 1px;
+  border: transparent; /* border: 1px; */
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
