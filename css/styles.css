@@ -9,7 +9,7 @@
 body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
-  line-height: 1.19;
+  /* line-height: 1.19; */
   letter-spacing: 0.03em;
   background-color: var(--white-background-col);
   color: var(--primary-txt-col);
