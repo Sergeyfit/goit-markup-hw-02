@@ -34,7 +34,6 @@ body {
 .header-logo,
 .footer-logo {
   font-family: Raleway;
-  font-weight: 700;
   font-size: 26px;
   color: var(--brand-txt-col);
 }
@@ -109,7 +108,6 @@ body {
 }
 
 .skils-text {
-  font-weight: 400;
   font-size: 14px;
   color: var(--secondary-txt-col);
 }
@@ -126,11 +124,10 @@ body {
 }
 
 .teams-text {
-  font-weight: 400;
   font-size: 16px;
   color: var(--secondary-txt-col);
 }
-
+/*  */
 .address-contact-map {
   font-weight: 400;
   font-size: 14px;
